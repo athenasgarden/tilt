@@ -2,7 +2,7 @@
 
 Arcade pay-to-rank cabinet. Ten names on the CRT. Rank is the bid. Continue or tilt off.
 
-Ship it at **highscore.ctrlaltcmd.com**.
+Ship it at **tilt.ctrlaltcmd.com**.
 
 ## What it is
 
@@ -25,7 +25,7 @@ npm run dev
 2. Stripe: set `STRIPE_SECRET_KEY` as a host secret (`sk_live_` for real money). Do not put it in the repo.
 3. Optional: set `STRIPE_WEBHOOK_SECRET` and point Stripe at `/api/stripe/webhook`.
 4. Deploy (Vercel, Cloudflare, or any Node host that can run the Vite/Nitro build).
-5. Point `highscore.ctrlaltcmd.com` at that deploy.
+5. Point `tilt.ctrlaltcmd.com` at that deploy.
 
 Operator (`/operator`) is off the public nav. Connect Stripe from the coin door while the cabinet is DARK, or set `STRIPE_SECRET_KEY` in the host environment and skip the form.
 
